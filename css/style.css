@@ -65,3 +65,43 @@ margin-top: -7px;
     cursor: default;
 }
 
+.divider {
+    height: 4px;
+    width: 100%;
+    background-color: #26096a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.gallerybuzos{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding-top: 3em;
+}
+
+.carousel-inner{
+width: 30vw;
+}
+
+
+
+
+.buynow{
+    padding: 10px 20px;
+    background-color: #26096a;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.info-buzos{
+    padding: 12em;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 12em;
+}
