@@ -9,6 +9,7 @@
 body{
     font-family:'Bebas Neue', cursive;
     overflow-x: hidden;
+    width: 100%;
 }
 
 .home{
@@ -43,6 +44,7 @@ font-size: 25px;
     text-decoration: none;
     color: #26096a;
     padding: 10px 20px;
+    border-radius: 20px;
 }
 
 .menu .activate {
@@ -54,6 +56,7 @@ font-size: 25px;
      transition: ease-in 0.4s;
      color: black;
 }
+
 
 
 .brand{
@@ -83,8 +86,9 @@ margin-top: -7px;
 
 }
 
-.carousel-inner{
+.carousel{
 width: 30vw;
+margin-left: 8rem;
 }
 
 
@@ -96,19 +100,21 @@ width: 30vw;
     margin-top: 10px;
     cursor: pointer;
     font-weight: bold;
+    margin-left: 10rem;
+
 }
 
 .container{
     margin-bottom: 25px !important;
+    padding-left: 10rem;
+
 }
 
 .tshirt-headings{
-    width: 100vw;
     padding: 5rem;
     background-color: black;
     color: #26096a;
-display: flex;
-justify-content: center;
+text-align: center;
 }
 
 .tshirt-headings h2{
@@ -126,4 +132,80 @@ justify-content: center;
     height: 4px;
     width: 100%;
     background-color: #26096a;
+}
+
+.tshirts{
+    background-color: black;
+}
+
+.containter-tshirts{
+    padding: 4rem;
+}
+
+.containter-tshirts .pro{
+    background-color: black;
+    width: 23%;
+    padding: 10px 20px;
+    border: 4px solid #26096a;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba (0, 0, 0, 0.5);
+    margin: 15px;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+.containter-tshirts .pro:hover{
+    box-shadow: 1px 1px 4px 10px #26096a;
+}
+
+.containter-tshirts .pro .description{
+    color: #26096a;
+    text-align: start;
+    padding: 10px 0;
+
+}
+
+.containter-tshirts .pro .description span{
+    font-size: 12px;
+}
+
+.containter-tshirts .pro .description h5{
+    font-size: 30px;
+    color: #fff;
+    padding-top: 7px;
+}
+
+.containter-tshirts .pro .img-rose{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.containter-tshirts .pro .description i{
+    font-size: 12px;
+}
+
+.containter-tshirts .pro .description h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.containter-tshirts .pro .cart {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #26096a;
+    font-weight: 500;
+    color: black;
+    border: 1px solid #26096a;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+
+.containter-tshirts .pro .cart i {
+    margin-left: 8px
 }
