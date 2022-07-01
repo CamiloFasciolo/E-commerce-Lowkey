@@ -24,6 +24,7 @@ justify-content: space-between;
 padding: 2em;
 font-weight: bold;
 font-size: 25px;
+
 }
 
 .menu{
@@ -86,8 +87,6 @@ width: 30vw;
 }
 
 
-
-
 .buynow{
     padding: 10px 20px;
     background-color: #26096a;
@@ -98,10 +97,28 @@ width: 30vw;
     font-weight: bold;
 }
 
-
-.info-buzos{
-    padding: 12em;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 12em;
+.container{
+    margin-bottom: 25px !important;
 }
+
+.tshirt-headings{
+    width: 100vw;
+    padding: 5rem;
+    background-color: black;
+    color: #26096a;
+display: flex;
+justify-content: center;
+}
+
+.tshirt-headings h2{
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.divider-tshirts{
+    height: 4px;
+    width: 100%;
+    background-color: #26096a;
+}
+
+
