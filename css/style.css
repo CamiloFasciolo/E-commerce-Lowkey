@@ -83,6 +83,8 @@ margin-top: -7px;
     display: flex;
     align-items: center;
     padding-top: 3em;
+    padding-bottom: 5em;
+    background-color: black;
 
 }
 
@@ -138,9 +140,15 @@ text-align: center;
     background-color: black;
 }
 
-.containter-tshirts{
-    padding: 4rem;
+.tshirts .containter-tshirts{
+    display: flex;
+    justify-content: space-between;
+margin-top: 5rem;
+    gap: 3em;
+    flex-wrap: wrap;
+    padding: 3em;
 }
+
 
 .containter-tshirts .pro{
     background-color: black;
@@ -187,7 +195,7 @@ text-align: center;
 
 .containter-tshirts .pro .description h4{
     padding-top: 7px;
-    font-size: 15px;
+    font-size: 30px;
     font-weight: 700;
 }
 
