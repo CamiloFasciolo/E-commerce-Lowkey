@@ -80,6 +80,7 @@ margin-top: -7px;
     display: flex;
     align-items: center;
     padding-top: 3em;
+
 }
 
 .carousel-inner{
@@ -121,4 +122,8 @@ justify-content: center;
     background-color: #26096a;
 }
 
-
+.divider-section{
+    height: 4px;
+    width: 100%;
+    background-color: #26096a;
+}
