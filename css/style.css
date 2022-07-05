@@ -42,7 +42,7 @@ font-size: 25px;
 
 .menu a{
     text-decoration: none;
-    color: #26096a;
+    color: #421c9a;
     padding: 10px 20px;
     border-radius: 20px;
 }
@@ -52,7 +52,7 @@ font-size: 25px;
 }
 
 .menu a:hover{
-     background-color: #26096a;
+     background-color: #421c9a;
      transition: ease-in 0.4s;
      color: black;
 }
@@ -64,7 +64,7 @@ margin-top: -7px;
 }
 
 .brand h2{
-    color: #26096a;
+    color: #421c9a;
     font-size: 60px;
     cursor: default;
 }
@@ -72,7 +72,7 @@ margin-top: -7px;
 .divider {
     height: 4px;
     width: 100%;
-    background-color: #26096a;
+    background-color: #421c9a;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -96,7 +96,7 @@ margin-left: 8rem;
 
 .buynow{
     padding: 10px 20px;
-    background-color: #26096a;
+    background-color: #421c9a;
     border: none;
     border-radius: 20px;
     margin-top: 10px;
@@ -115,7 +115,7 @@ margin-left: 8rem;
 .tshirt-headings{
     padding: 5rem;
     background-color: black;
-    color: #26096a;
+    color: #421c9a;
 text-align: center;
 }
 
@@ -127,13 +127,13 @@ text-align: center;
 .divider-tshirts{
     height: 4px;
     width: 100%;
-    background-color: #26096a;
+    background-color: #421c9a;
 }
 
 .divider-section{
     height: 4px;
     width: 100%;
-    background-color: #26096a;
+    background-color: #421c9a;
 }
 
 .tshirts{
@@ -150,11 +150,12 @@ margin-top: 5zrem;
 }
 
 
+
 .containter-tshirts .pro{
     background-color: black;
     width: 23%;
     padding: 10px 20px;
-    border: 4px solid #26096a;
+    border: 4px solid #421c9a;
     border-radius: 50px;
     cursor: pointer;
     box-shadow: 20px 20px 30px rgba (0, 0, 0, 0.5);
@@ -164,11 +165,11 @@ margin-top: 5zrem;
 }
 
 .containter-tshirts .pro:hover{
-    box-shadow: 1px 1px 4px 10px #26096a;
+    box-shadow: 1px 1px 4px 10px #421c9a;
 }
 
 .containter-tshirts .pro .description{
-    color: #26096a;
+    color: #421c9a;
     text-align: start;
     padding: 10px 0;
 
@@ -204,10 +205,10 @@ margin-top: 5zrem;
     height: 40px;
     line-height: 40px;
     border-radius: 50px;
-    background-color: #26096a;
+    background-color: #421c9a;
     font-weight: 500;
     color: black;
-    border: 1px solid #26096a;
+    border: 1px solid #421c9a;
     position: absolute;
     bottom: 20px;
     right: 10px;
@@ -216,4 +217,24 @@ margin-top: 5zrem;
 
 .containter-tshirts .pro .cart i {
     margin-left: 8px
+}
+
+
+.banner{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+background-image: url(../multimedia/images/bannerlowkey.jpg);
+width: 100%;
+height: 40vh;
+background-size: cover;
+background-position: center;
+background-color: black;
+}
+
+.banner h2{
+font-size: 5em;
+color: #fff;
 }
