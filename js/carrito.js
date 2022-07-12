@@ -1,36 +1,30 @@
-console.log("Ingresa los productos al registro de stock")
-alert("Para finalizar el ingreso de los productos escriba ESC en vez de un producto")
+alert("Bienvenidos a Lowkey")
+const x = Infinity
+let carrito = []
+const remeras = 300
+const buzos = 1500
+const pantalones = 200
+let cantidadRemeras;
+let cantidadBuzos;
+let cantidadPantalones;
 
-let x = prompt("Ingrese cantidad de pedidos")
-
-function productos() {
-
+function catalogo() {
     for (let i = 0; i < x; i++) {
-
-        let producto = prompt("Ingrese el producto").toUpperCase()
-        while (producto == "") {
-            alert("Error. Ingrese el nombre del producto")
-            producto = prompt("producto").toUpperCase()
+        let ingreso = parseInt(prompt("Catalogo: \n 1-Remeras \n 2-Buzos \n 3-Pantalones \n 4-Salir"))
+        if (ingreso == 1) {
+            cantidadRemeras = parseInt(prompt("Ingrese cantidad de remeras"))
+            carrito += (cantidadRemeras*remeras)
+        } else if (ingreso == 2) {
+            cantidadBuzos = parseInt(prompt("Ingrese cantidad de buzos"))
+            carrito += (cantidadBuzos*buzos)
         }
-        if (producto == "ESC") {
+        if (ingreso == 3) {
+            cantidadPantalones = parseInt(prompt("Ingrese cantidad de pantalones"))
+            carrito += (cantidadPantalones*pantalones)
+        } else if (ingreso == 4) {
+            console.log(`El total de la compra es: ${carrito} \n remeras : ${cantidadRemeras} \n buzos : ${cantidadBuzos} \n pantalones : ${cantidadPantalones}`)
             break
         }
-        let precio = parseInt(prompt("precio"))
-        while (isNaN(precio)) {
-            alert("Error. Ingrese el precio del producto")
-            precio = parseInt(prompt("precio"))
-        }
-        let cantidad = parseInt(prompt("cantidad"))
-        while (isNaN(cantidad)) {
-            alert("Error. Ingrese la cantidad del producto")
-            cantidad = parseInt(prompt("cantidad"))
-        }
-
-        console.log(i + " " + producto + " " + precio + " " + cantidad)
-
     }
-
-
 }
-
-productos(x)
+catalogo(x)
